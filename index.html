@@ -13,6 +13,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
@@ -21,21 +22,27 @@
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
- <div class="collapse navbar-collapse" id="navbarScroll">
+            <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-  <select onkeydown="enter(event)" class=" drop nav-link dropdown-toggle" id="dropdown" name="dropbox">
+                    <select onkeydown="enter(event)" class=" drop nav-link dropdown-toggle" id="dropdown"
+                        name="dropbox">
                         <option style="visibility: hidden;" value="notselect">Select Brand</option>
- <option value="iphone">Apple</option>
+                        <option value="iphone">Apple</option>
                         <option value="poco">Poco</option>
- <option value="oppo">Oppo</option>
+                        <option value="oppo">Oppo</option>
                         <option value="samsung">Samsung</option>
-<option value="infinix">Infinix</option>
+                        <option value="infinix">Infinix</option>
                         <option value="motorola">Motorola</option>
- </select>
+                    </select>
 
 
 
                 </ul>
                 <div class=" serch d-flex">
-                      <input class="form-control me-2" onkeydown="enter(event)" type="search" id="model" placeholder="Enter Model
+                    <input class="form-control me-2" onkeydown="enter(event)" type="search" id="model" placeholder="Enter Model
               " aria-label="Search">
+                    <button class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
+                </div>
+            </div>
+        </div>
+    </nav>
