@@ -1,1 +1,70 @@
 
+
+.drop, .list {
+    border: rgba(123, 131, 121, 0.363) 2px solid;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(145, 145, 170);
+    width: 500px;
+    border-radius: 7px;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.nav-link>.input {
+    width: 100%;
+}
+.drop2{
+    border: rgba(123, 131, 121, 0.363) 2px solid;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(145, 145, 170);
+    width: 400px;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+.serch {
+    width: 350px;
+    margin-right: 250px;
+    height: 40px;
+}
+figure{
+    display: inline-block;
+}
+figure>img{
+    width: 350px;
+    height: 400px;
+}
+figcaption{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(37, 35, 39);
+    padding: 10px;
+    color: white;
+    border: 5px solid black;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#warImage{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.discription{
+    margin-top: 20px;
+    padding: 2%;
+}
+
+#image{
+    width: 600px;
+    height: 600px;
+}
+
