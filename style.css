@@ -1,16 +1,4 @@
 
-
-.drop, .list {
-    border: rgba(123, 131, 121, 0.363) 2px solid;
-    display: flex;
-    background-color: rgb(255, 255, 255);
-    color: rgb(145, 145, 170);
-    width: 500px;
-    border-radius: 7px;
-}
-
-.navbar {
-    background-color: white !important;
 }
 
 .nav-link>.input {
