@@ -223,27 +223,27 @@ function search() {
         else {
             document.getElementById('mainDiv').innerHTML = ""
             document.getElementById("mainDivSearch").innerHTML = ""
-            document.getElementById("warImage").src = "no.gif"
+            document.getElementById("warImage").src = "images/no.gif"
         }
     }
     else {
         namess = phones[brand][model]
         if (namess == undefined) {
             if (model == "") {
-                model.classList.add("emptyField")
-                model.setAttribute("placeholder", "Please Enter Brand Name !")
+                document.getElementById("warImage").src = "images/no.gif"
+                
             }
             else {
                 document.getElementById('mainDiv').innerHTML = ""
                 document.getElementById("mainDivSearch").innerHTML = ""
-                document.getElementById("warImage").src = "no.gif"
+                document.getElementById("warImage").src = "images/no.gif"
             }
         }
         // var nodeToAdd = document.createElement("div");
         // var imgNodeToAdd = document.createElement("img");
         // nodeToAdd.setAttribute("class", "image");
         // nodeToAdd.setAttribute("id", "image");
-        // notfound = imgNodeToAdd.src = "images/no.gif"
+        // notfound = imgNodeToAdd.src = "images/images/no.gif"
         // if (namess !== phones[brand][model]) {
 
         // }
@@ -268,3 +268,4 @@ function search() {
         }
     
     }
+
