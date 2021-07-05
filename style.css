@@ -1,4 +1,15 @@
 
+.drop, .list {
+    border: rgba(123, 131, 121, 0.363) 2px solid;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(145, 145, 170);
+    width: 500px;
+    border-radius: 7px;
+}
+
+.navbar {
+    background-color: white !important;
 }
 
 .nav-link>.input {
@@ -44,6 +55,15 @@ figcaption{
     width: 50%;
     display: block;
     margin: 0 auto;
+}
+#warh1{
+    text-align: center !important;
+    display: block;
+    font-size: 50px !important;
+}
+.mainDivSearch{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .discription{
