@@ -247,6 +247,17 @@ function search() {
         // if (namess !== phones[brand][model]) {
 
         // }
+        {
+            drop.classList.remove("emptyField")
+            document.getElementById('mainDiv').innerHTML = ""
+            var img = document.getElementById("image")
+            img.src = phones[brand][model].src;
+            document.getElementById("name").innerHTML = "Model :" + " " + phones[brand][model].model
+            document.getElementById("price").innerHTML = "Price :" + " " + phones[brand][model].price
+            document.getElementById("storage").innerHTML = "Storage :" + " " + phones[brand][model].storage
+            document.getElementById("camera").innerHTML = "Camera :" + " " + phones[brand][model].camera
+            document.getElementById("color").innerHTML = "Color :" + " " + phones[brand][model].color
+        }
 
     }
 }
@@ -257,4 +268,3 @@ function search() {
         }
     
     }
-
