@@ -64,7 +64,11 @@ figcaption {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+h1{
+    text-transform: capitalize;
+    color: rgba(128, 128, 128, 0.801);
+   text-decoration: underline;
+}
 #warImage {
     width: 50%;
     display: block;
@@ -102,5 +106,9 @@ figcaption {
     .serch{
         margin: 2%;
         width: 300px;
+    }
+    #image {
+        width: 200px;
+        height: 200px;
     }
 }
