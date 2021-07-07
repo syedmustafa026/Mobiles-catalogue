@@ -6,6 +6,7 @@
     width: 300px;
     border-radius: 7px;
     margin: 2%;
+    outline: none;
 }
 
 .navbar {
@@ -64,20 +65,20 @@ figcaption {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-h1{
-    text-transform: capitalize;
-    color: rgba(128, 128, 128, 0.801);
-   text-decoration: underline;
-}
+
 #warImage {
     width: 50%;
     display: block;
     margin: 0 auto;
+ 
 }
 
 #warh1 {
     text-align: center !important;
     display: block;
+    text-transform: capitalize;
+    color: rgba(177, 174, 174, 0.664);
+   text-decoration: underline;
     font-size: 50px !important;
 }
 
@@ -92,9 +93,9 @@ h1{
     padding: 2%;
 }
 
-#image {
-    width: 500px;
-    height: 500px;
+#imag {
+    width: 300px;
+    height: 300px;
 }
 
 @media screen and (max-width: 420px) {
@@ -107,8 +108,8 @@ h1{
         margin: 2%;
         width: 300px;
     }
-    #image {
-        width: 200px;
-        height: 200px;
+    #imag {
+        width: 300px !important;
+        height: 300px !important;
     }
 }
