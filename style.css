@@ -1,11 +1,11 @@
-
 .drop, .list {
     border: rgba(123, 131, 121, 0.363) 2px solid;
     display: flex;
     background-color: rgb(255, 255, 255);
     color: rgb(145, 145, 170);
-    width: 500px;
+    width: 300px;
     border-radius: 7px;
+    margin: 2%;
 }
 
 .navbar {
@@ -15,28 +15,34 @@
 .nav-link>.input {
     width: 100%;
 }
-.drop2{
+
+.drop2 {
     border: rgba(123, 131, 121, 0.363) 2px solid;
     display: flex;
     background-color: rgb(255, 255, 255);
     color: rgb(145, 145, 170);
-    width: 400px;
+    width: 300px;
+    margin: 2%;
     margin-right: 15px;
     border-radius: 7px;
 }
+
 .serch {
-    width: 350px;
+    width: 50%;
     margin-right: 250px;
     height: 40px;
 }
-figure{
+
+figure {
     display: inline-block;
 }
-figure>img{
+
+figure>img {
     width: 350px;
     height: 400px;
 }
-figcaption{
+
+figcaption {
     text-align: center;
     margin-top: 20px;
     background-color: rgb(37, 35, 39);
@@ -46,33 +52,55 @@ figcaption{
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.mainDiv{
+/* 
+.btn {
+    background-color: rgba(240, 248, 255, 0.397);
+    margin: 2%;
+    padding-top: 7px;
+} */
+
+.mainDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-#warImage{
+
+#warImage {
     width: 50%;
     display: block;
     margin: 0 auto;
 }
-#warh1{
+
+#warh1 {
     text-align: center !important;
     display: block;
     font-size: 50px !important;
 }
-.mainDivSearch{
+
+.mainDivSearch {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.discription{
+
+.discription {
     margin-top: 20px;
     padding: 2%;
 }
 
-#image{
-    width: 600px;
-    height: 600px;
+#image {
+    width: 500px;
+    height: 500px;
 }
 
+@media screen and (max-width: 420px) {
+    #warImage {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .serch{
+        margin: 2%;
+        width: 300px;
+    }
+}
