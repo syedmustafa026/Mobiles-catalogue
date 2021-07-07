@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/Capture.PNG" width="200px" height="70px" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="Capture.PNG" width="200px" height="70px" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                 aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                     <select onkeydown="enter(event)" class=" drop nav-link dropdown-toggle" id="dropdown"
                         name="dropbox">
-                        <option style="visibility: hidden;" value="notselect">Select Brand</option>
+                        <option style="visibility: hidden;" value="0">Select Brand</option>
                         <option value="iphone">Apple</option>
                         <option value="poco">Poco</option>
                         <option value="oppo">Oppo</option>
@@ -40,19 +40,20 @@
                 </ul>
                 <div class=" serch d-flex">
                     <input class="form-control me-2" onkeydown="enter(event)" type="search" id="model" placeholder="Enter Model
-              " aria-label="Search">
-              <!-- <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                <select onkeydown="enter(event)" class=" drop2 nav-link dropdown-toggle" id="model"
-                    name="dropbox">
-                    <option style="visibility: hidden;"  value="notselect">Select model</option>
-                    <option id="1" value="phone1"></option>
-                    <option id="2" value="phone2"></option>
-                    <option id="3" value="phone3"></option>
+                    " aria-label="Search">
                     
-                </select> -->
-                    <button style="width: 90px; display: flex;" class="btn btn-outline-success" onclick="search()" type="submit">Search</button>
-                </div>
+                    <!-- <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <select onkeydown="enter(event)" class=" drop2 nav-link dropdown-toggle" id="model" name="dropbox">
+                            <option value="0">Select model</option>
+                            <option id="1" value="phone1"></option>
+                            <option id="2" value="phone2"></option>
+                            <option id="3" value="phone3"></option>
+                        
+                    </select> -->
+                    <button style="width: 90px; display: flex;" class="btn btn-outline-success" onclick="search()"
+                        type="submit">Search</button>
             </div>
+        </div>
         </div>
     </nav>
     <div class="mainDiv" id="mainDiv">
@@ -122,7 +123,7 @@
         </figure>
     </div>
     <div class="mainDivSearch" id="mainDivSearch">
-        <img src="" alt="" id="image">
+        <img style="visibility: visible;" src="" alt="" id="imag">
         <div class="discription">
             <h1 id="brand"></h1><br>
             <h1 id="name"></h1><br>
@@ -132,9 +133,7 @@
             <h1 id="camera"></h1><br>
         </div>
     </div>
-    <div  class="warning" id="warning">
-        <img src="" alt="" id="warImage">
-        <h1 id="warh1"></h1>
+    
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
