@@ -3,17 +3,12 @@ images = mainImageDIv.getElementsByTagName("img")
 caps = document.getElementsByTagName("figcaption")
 model = ["iphone x", "iphone 11", "iphone 12", "samsung s8", "samsung s9", "samsung s10", "oppo f8", "oppo f9", "oppo f10", "infinix hot 8", "infinix hot 9", "infinix hot 10", "pocox3", "poco M20", "motorola e4", "motorola e6",]
 mobile = ["apple", "poco", "oppo", "samsung", "infinix", "motorola"]
-sources = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg", "images/5.jpg", "images/6.jpg", "images/7.jpg", "images/8.jpg", "images/9.jpg", "images/10.jpg", "images/11.jpg", "images/12.jpg", "images/13.jpg", "images/14.jpg", "images/15.jpg", "images/16.jpg"]
+sources = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg", "10.jpg", "11.jpg", "12.jpg", "13.jpg", "14.jpg", "15.jpg", "16.jpg"]
 
 // drop down
-// var drop1 = document.getElementById("1")
-// drop2 = document.getElementById("2")
-// drop3 = document.getElementById("3")
-// document.getElementById("1").innerHTML = phones[brand][model]
-// document.getElementById("2").innerHTML = phones[brand][model]
-// document.getElementById("3").innerHTML = phones[brand][model]
-
-
+// var drop1 = document.getElementById("1").innerText
+// drop2 = document.getElementById("2").innerText
+// drop3 = document.getElementById("3").innerText
 
 
 
@@ -35,7 +30,7 @@ var phones = {
             color: "Gray,Black & White",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front 5mx",
-            src: " images/1.jpg"
+            src: " 1.jpg"
 
         },
         iphone11: {
@@ -45,7 +40,7 @@ var phones = {
             color: "Gray,Black & White & Crystal",
             storage: "4 & 64, 6 & 128, 6 & 256, 12 & 512",
             camera: "16px Back, And 6px Front 5mx",
-            src: " images/2.jpg"
+            src: " 2.jpg"
 
         },
         iphone12: {
@@ -55,7 +50,7 @@ var phones = {
             color: "Gray,Black & White & Crystal & New Crystal",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "20px Back, And 8px Front 5mx",
-            src: " images/3.jpg"
+            src: " 3.jpg"
 
         }
     },
@@ -67,7 +62,7 @@ var phones = {
             color: "Golden",
             storage: "4 & 64, 6 & 128",
             camera: "12px Back, And 4px Front",
-            src: " images/4.jpg"
+            src: " 4.jpg"
 
         },
         s9: {
@@ -77,7 +72,7 @@ var phones = {
             color: "Golden",
             storage: "4 & 64, 6 & 128",
             camera: "12px Back, And 4px Front",
-            src: " images/5.jpg"
+            src: " 5.jpg"
 
         },
         s10: {
@@ -87,7 +82,7 @@ var phones = {
             color: "Golden",
             storage: "4 & 64, 6 & 128",
             camera: "12px Back, And 4px Front",
-            src: " images/6.jpg"
+            src: " 6.jpg"
 
         }
     },
@@ -99,7 +94,7 @@ var phones = {
             color: "Golden",
             storage: "4 & 64, 6 & 128",
             camera: "12px Back, And 4px Front",
-            src: " images/7.jpg"
+            src: " 7.jpg"
 
         },
         f9: {
@@ -109,7 +104,7 @@ var phones = {
             color: "Golden & White",
             storage: "4 & 64, 6 & 128",
             camera: "12px Back, And 4px Front",
-            src: " images/8.jpg"
+            src: " 8.jpg"
 
         },
         f10: {
@@ -119,7 +114,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/9.jpg"
+            src: " 9.jpg"
 
         }
     },
@@ -131,7 +126,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/10.jpg"
+            src: " 10.jpg"
 
         },
         hot9: {
@@ -141,7 +136,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/11.jpg"
+            src: " 11.jpg"
 
         },
         hot10: {
@@ -151,7 +146,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/12.jpg"
+            src: " 12.jpg"
 
         }
     },
@@ -163,7 +158,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/13.jpg"
+            src: " 13.jpg"
 
         },
         m20: {
@@ -173,7 +168,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/14.jpg"
+            src: " 14.jpg"
 
         }
     },
@@ -186,7 +181,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/15.jpg"
+            src: " 15.jpg"
 
 
         },
@@ -198,7 +193,7 @@ var phones = {
             color: "Cristal Shade",
             storage: "4 & 64, 6 & 128, 6 & 256",
             camera: "12px Back, And 4px Front",
-            src: " images/16.jpg"
+            src: " 16.jpg"
 
 
         }
@@ -206,6 +201,10 @@ var phones = {
 }
 var drop = document.getElementById("dropdown")
 model0 = document.getElementById("model")
+
+
+
+
 // when you click on search
 function search() {
 
@@ -223,34 +222,34 @@ function search() {
         else {
             document.getElementById('mainDiv').innerHTML = ""
             document.getElementById("mainDivSearch").innerHTML = ""
-            document.getElementById("warImage").src = "images/no.gif"
+            document.getElementById("warImage").src = "no.gif"
         }
     }
     else {
         namess = phones[brand][model]
         if (namess == undefined) {
             if (model == "") {
-                document.getElementById("warImage").src = "images/no.gif"
-                
+                document.getElementById("warImage").src = "no.gif"
+
             }
             else {
                 document.getElementById('mainDiv').innerHTML = ""
                 document.getElementById("mainDivSearch").innerHTML = ""
-                document.getElementById("warImage").src = "images/no.gif"
+                document.getElementById("warImage").src = "no.gif"
             }
         }
         // var nodeToAdd = document.createElement("div");
         // var imgNodeToAdd = document.createElement("img");
         // nodeToAdd.setAttribute("class", "image");
         // nodeToAdd.setAttribute("id", "image");
-        // notfound = imgNodeToAdd.src = "images/images/no.gif"
+        // notfound = imgNodeToAdd.src = "no.gif"
         // if (namess !== phones[brand][model]) {
 
         // }
         {
             drop.classList.remove("emptyField")
             document.getElementById('mainDiv').innerHTML = ""
-            var img = document.getElementById("image")
+            var img = document.getElementById("imag")
             img.src = phones[brand][model].src;
             document.getElementById("name").innerHTML = "Model :" + " " + phones[brand][model].model
             document.getElementById("price").innerHTML = "Price :" + " " + phones[brand][model].price
@@ -261,11 +260,10 @@ function search() {
 
     }
 }
-    // accept search by enter key
-    function enter(code) {
-        if (code.keyCode === 13) {
-            search()
-        }
-    
+// accept search by enter key
+function enter(code) {
+    if (code.keyCode === 13) {
+        search()
     }
 
+}
